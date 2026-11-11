@@ -1,32 +1,23 @@
-# Priska Christy — Personal Portfolio Website
+# Personal Portfolio
 
-Editorial-inspired, minimalist, and chic personal portfolio website for Priska Christy — Undergraduate Computer Science Student specializing in Intelligent Systems at BINUS University.
+This repository contains the source code for my personal portfolio website. 
 
-## 🚀 Live Demo & Tech Stack
-- **Architecture**: Semantic HTML5, Modular CSS3, Vanilla JavaScript
-- **Styling**: Editorial typography (DM Serif Display + Inter), Swiss-inspired grid layout, responsive breakpoints
-- **Deployment**: Vercel ready (`vercel.json`)
+I am an undergraduate Computer Science student at BINUS University concentrating in Intelligent Systems, with interests spanning machine learning, software development, and digital marketing.
 
-## 📁 Project Structure
-```
-portfolio-priska/
-├── index.html                  # Main portfolio webpage
-├── style.css                   # Custom editorial styling
-├── script.js                   # Navigation & reveal interactions
-├── vercel.json                 # Vercel deployment configuration
-└── assets/
-    ├── portrait.jpg            # About section portrait photo
-    ├── CV_ATS_Priska_Christy.pdf # ATS-friendly CV
-    ├── project-asl.jpg         # Computer Vision project preview
-    ├── project-spec2price.jpg  # Machine Learning project preview
-    └── project-srexam.jpg      # Software Engineering project preview
-```
+## Featured Projects
 
-## 💻 Local Preview
-Simply open `index.html` in any modern web browser or run with Live Server:
-```bash
-# In VS Code with Live Server extension:
-Right click index.html -> Open with Live Server
-```
+- Real-Time Hand Gesture Recognition: An American Sign Language recognition system combining HOG, LBP, and Hu Moments with an SVM classifier.
+- Spec2Price: A web application that estimates laptop market prices based on hardware specifications using a machine learning model.
+- SR-Exam: A desktop application for university exam management and scheduling built with Tauri, Rust, and Supabase.
 
-© 2026 Priska Christy. All rights reserved.
+## Built With
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Contact
+
+- Email: priskawrk@gmail.com
+- LinkedIn: https://www.linkedin.com/in/priska-christy-399343326
+- GitHub: https://github.com/priiisss
