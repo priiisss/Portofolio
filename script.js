@@ -1,12 +1,7 @@
-/* ============================================================
-   PRISKA CHRISTY — PORTFOLIO
-   Minimal interactions & smooth UX
-   ============================================================ */
-
 (function () {
   'use strict';
 
-  // ---- Nav scroll effect ----
+  // nav scroll effect
   const nav = document.getElementById('nav');
   let lastScrollY = 0;
 
@@ -22,7 +17,7 @@
 
   window.addEventListener('scroll', onScroll, { passive: true });
 
-  // ---- Mobile menu toggle ----
+  // mobile menu
   const toggle = document.querySelector('.nav__toggle');
   const menu = document.querySelector('.nav__menu');
 
@@ -33,7 +28,7 @@
       menu.classList.toggle('nav__menu--open');
     });
 
-    // Close menu on link click
+    // close menu when click link
     menu.querySelectorAll('.nav__link').forEach(function (link) {
       link.addEventListener('click', function () {
         toggle.setAttribute('aria-expanded', 'false');
@@ -42,7 +37,7 @@
     });
   }
 
-  // ---- Subtle reveal on scroll ----
+  // little preview when scrolling
   const revealElements = document.querySelectorAll(
     '.about__grid, .experience__item, .project, .cv-section__inner, .contact__grid'
   );
@@ -66,12 +61,11 @@
     revealObserver.observe(el);
   });
 
-  // CSS class for revealed state
   const style = document.createElement('style');
   style.textContent = '.revealed { opacity: 1 !important; transform: translateY(0) !important; }';
   document.head.appendChild(style);
 
-  // ---- Active nav link on scroll ----
+  // active nav link when scrolling
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.nav__link[href^="#"]');
 
